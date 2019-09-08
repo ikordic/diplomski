@@ -149,6 +149,17 @@ public class RecipeOverviewActivity extends AppCompatActivity
 
         //Dodavanje komentara
 
+        if(userAuth.getCurrentUser() == null)
+        {
+            buttonPostComment.setVisibility(View.GONE);
+            editTextAddComment.setVisibility(View.GONE);
+        }
+        else
+        {
+            buttonPostComment.setVisibility(View.VISIBLE);
+            editTextAddComment.setVisibility(View.VISIBLE);
+        }
+
         buttonPostComment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -186,7 +197,6 @@ public class RecipeOverviewActivity extends AppCompatActivity
         });
 
     }
-
 
 }
 
