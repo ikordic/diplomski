@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddNewRecipeActivity"
+    android:background="@drawable/bg_login">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/textViewNewRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:text="Add new recipe"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageViewNewRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:contentDescription="Recipe picture"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textViewAddFromDevice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Add image from device"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <EditText
+                android:id="@+id/editTextNewRecipeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:hint="Recipe name"
+                android:background="@drawable/edit_text_background"
+                android:inputType="textEmailAddress"
+                android:padding="20dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextNewRecipeDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="Recipe description"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edit_text_background"
+                android:inputType="textMultiLine"
+                android:padding="20dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewIngredients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sastojci"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="35dp"/>
+
+            <ListView
+                android:id="@+id/listViewIngredients"
+                android:layout_width="match_parent"
+                android:layout_height="258dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:scrollbars="vertical"/>
+
+            <EditText
+                android:id="@+id/editTextNewIngredient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:ems="10"
+                android:hint="Recipe ingredient"
+                android:padding="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_background"
+                android:inputType="textPersonName" />
+
+
+            <Button
+                android:id="@+id/buttonAddNewIgredient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/button_background"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:onClick="onBtnClick"
+
+                android:text="Add ingredient"
+
+                />
+
+                
+
+
+            <EditText
+                android:id="@+id/editTextNewRecipePreparationSteps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="Recipe preparation steps"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edit_text_background"
+                android:inputType="textMultiLine"
+                android:padding="20dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/buttonSaveNewRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="Save recipe"
+                android:background="@drawable/button_background"
+
+                android:textSize="16sp"
+                android:focusableInTouchMode="false"
+                android:clickable="true" />
+
+         
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

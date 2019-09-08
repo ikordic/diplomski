@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "267674599498",
+    "firebase_url": "https://poorstudentscookbook-f9e8b.firebaseio.com",
+    "project_id": "poorstudentscookbook-f9e8b",
+    "storage_bucket": "poorstudentscookbook-f9e8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267674599498:android:ced40dc72f545c4d",
+        "android_client_info": {
+          "package_name": "com.kordic.ivan.poorstudentscookbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267674599498-28ot09j0b21hjp45aamabkstt0ged9bv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kordic.ivan.poorstudentscookbook",
+            "certificate_hash": "53d2e2b0cf86bb0411821f671f95483d8add6175"
+          }
+        },
+        {
+          "client_id": "267674599498-ogjh2jnnl7uijvauauntotgma7n32qb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK4dJYJDntsYL-0O5ShnuDli1v5DV-y7k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267674599498-ogjh2jnnl7uijvauauntotgma7n32qb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
