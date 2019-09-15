@@ -92,7 +92,7 @@ public class AddNewRecipeActivity extends AppCompatActivity
     String newRecipePreparationSteps;
     //
     String newRecipeComment = " ";
-    String newRecipeImageUrl = "https://firebasestorage.googleapis.com/v0/b/poorstudentscookbook-f9e8b.appspot.com/o/recipe%2Flogo_600.png?alt=media&token=0c838482-d339-4724-a671-e76366b7d894";
+    String newRecipeImageUrl = "https://firebasestorage.googleapis.com/v0/b/poorstudentscookbook-f9e8b.appspot.com/o/recipe%2Ficon_background.png?alt=media&token=5765490d-c310-4d36-8450-77cbd35e61ae";
     ArrayList<String> newIngredients;
     ArrayList<String> oldIngredients;
     @Override
